@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-css-practise",
+  "version": "1.0.0",
+  "description": "Practise project of tailwind css",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShehabAhmedSayem/tailwind-css-practise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShehabAhmedSayem/tailwind-css-practise/issues"
+  },
+  "homepage": "https://github.com/ShehabAhmedSayem/tailwind-css-practise#readme",
+  "devDependencies": {
+    "tailwindcss": "^2.2.19"
+  }
+}
